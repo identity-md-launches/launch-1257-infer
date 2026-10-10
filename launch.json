@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "InferToken",
+    "name": "Infer",
+    "symbol": "INFER",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8800,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0x6bf192ebef135e0f645e99d59d9bf44e7711606c"
+  },
+  "notes": "InferToken is a fixed-supply ERC-20 named Infer (INFER) with 18 decimals. Its parameterless constructor mints all 1,000,000,000 tokens once to msg.sender, the factory at launch. It exposes no further minting, burning, initialization or privileged administration functions, and transfers have no token fee. No application contracts are deployed. The pool pairs INFER with IMD; initialPrice is provenance only, and the opening price is derived from initialMarketCapWei and totalSupply."
+}
